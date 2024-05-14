@@ -7,12 +7,16 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <div className='span_1_of_3'>
-        <Profile/>
+
+      <div className='row'>
+        <div className='span_1_of_3'>
+          <Profile/>
+        </div>
+        <div className='span_2_of_3'>
+          <ChatBox/>
+        </div>
       </div>
-      <div className='span_2_of_3'>
-        <ChatBox/>
-      </div>
+      
       
     </div>
   );
